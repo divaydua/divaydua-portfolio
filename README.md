@@ -2,7 +2,7 @@
 
 A modern, fully-editable portfolio website built with Next.js, React, and Tailwind CSS. Showcase your resume, projects, experience, skills, education, trainings, and languages in a beautiful, recruiter-friendly UI. All data is editable from the UI and persists in your browser using localStorage.
 
-Live Portfolio Link: divaydua-portfolio-3z8c-git-main-divays-projects-eef9561e.vercel.app
+Live Portfolio Link: www.divaydua-portfolio-3z8c-git-main-divays-projects-eef9561e.vercel.app
 
 ---
 
