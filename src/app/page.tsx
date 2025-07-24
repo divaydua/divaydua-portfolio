@@ -532,7 +532,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="flex flex-col-reverse md:flex-row items-center justify-between max-w-6xl mx-auto py-20 px-6 gap-12 md:gap-0">
         <div className="flex-1 text-center md:text-left">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-blue-700 leading-tight">Hi, I'm Divay Dua</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-blue-700 leading-tight">Hi, I&apos;m Divay Dua</h2>
           <p className="text-xl md:text-2xl mb-6 text-slate-700 max-w-xl">A passionate developer, creator, and innovator. Welcome to my portfolio!</p>
           <a href="#projects" className="inline-block px-8 py-3 bg-blue-600 text-white rounded-full text-lg font-semibold shadow hover:bg-teal-500 transition">See My Work</a>
         </div>
