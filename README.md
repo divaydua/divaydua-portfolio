@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Divay Dua's Portfolio
 
-## Getting Started
+A modern, fully-editable portfolio website built with Next.js, React, and Tailwind CSS. Showcase your resume, projects, experience, skills, education, trainings, and languages in a beautiful, recruiter-friendly UI. All data is editable from the UI and persists in your browser using localStorage.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
+- **Modern, Responsive Design**: Glassmorphism-inspired cards, icons, and a clean blue-accented palette.
+- **Editable Sections**: Update About, Projects, Experience, Skills, Education, Trainings, and Languages directly from the UI.
+- **Admin Mode**: Simple password-protected login to enable editing (password: `Divaydua@12`).
+- **Persistence**: All data is saved in your browser's localStorage—no backend required.
+- **Contact & Social**: Customizable email, phone, and social links (GitHub, LinkedIn, XING) with icons.
+- **Mobile Friendly**: Looks great on all devices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
+- **Framework**: [Next.js 15 (App Router)](https://nextjs.org/)
+- **Frontend**: [React 18+](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/)
+- **State & Persistence**: React state + localStorage
+- **Icons**: Inline SVGs for all section headers, actions, and social links
+- **Authentication**: Simple password-based admin mode (no backend)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📄 Portfolio Sections
+- **About Me**: Name, bio, and profile image
+- **Projects**: Title, description, link, image, tech stack
+- **Experience**: Title, company, location, dates, description
+- **Skills**: Name and proficiency
+- **Education**: School, degree, field, dates, description
+- **Trainings & Certificates**: Name, issuer, dates, credential URL
+- **Languages**: Name and proficiency
+- **Contact**: Email, phone, GitHub, LinkedIn, XING
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔒 Editing & Admin Mode
+- Click **Login** (top right) and enter the password (`Divaydua@12`) to enable editing.
+- All sections become editable with add/edit/delete buttons and modals.
+- Data is saved to your browser's localStorage and persists across refreshes and restarts.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚀 Getting Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🌍 Deployment
+- **Recommended:** [Vercel](https://vercel.com/) (free, seamless for Next.js)
+- Push your code to GitHub, import to Vercel, and deploy in minutes.
+- See [Vercel Docs](https://vercel.com/docs) for details.
+
+---
+
+## ⚠️ Notes
+- **Persistence:** Data is stored in your browser only. Clearing browser storage or using a different device/browser will reset the portfolio.
+- **No backend/database required.**
+- **Password is hardcoded for demo purposes.**
+
+---
+
+## 📸 Preview
+![Portfolio Screenshot](public/portfolio-page.png)
+
+---
+
+## 🙏 Credits
+- Built by Divay Dua with Next.js, React, and Tailwind CSS.
+- Inspired by modern portfolio and glassmorphism UI trends.
