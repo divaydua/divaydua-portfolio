@@ -9,7 +9,7 @@ Live Portfolio Link: [www.divaydua-portfolio-3z8c-git-main-divays-projects-eef95
 ## ✨ Features
 - **Modern, Responsive Design**: Glassmorphism-inspired cards, icons, and a clean blue-accented palette.
 - **Editable Sections**: Update About, Projects, Experience, Skills, Education, Trainings, and Languages directly from the UI.
-- **Admin Mode**: Simple password-protected login to enable editing (password: `Divaydua@12`).
+- **Admin Mode**: Simple password-protected login to enable editing.
 - **Persistence**: All data is saved in your browser's localStorage—no backend required.
 - **Contact & Social**: Customizable email, phone, and social links (GitHub, LinkedIn, XING) with icons.
 - **Mobile Friendly**: Looks great on all devices.
@@ -38,7 +38,7 @@ Live Portfolio Link: [www.divaydua-portfolio-3z8c-git-main-divays-projects-eef95
 ---
 
 ## 🔒 Editing & Admin Mode
-- Click **Login** (top right) and enter the password (`Divaydua@12`) to enable editing.
+- Click **Login** (top right) and enter the password to enable editing.
 - All sections become editable with add/edit/delete buttons and modals.
 - Data is saved to your browser's localStorage and persists across refreshes and restarts.
 
@@ -59,8 +59,8 @@ Live Portfolio Link: [www.divaydua-portfolio-3z8c-git-main-divays-projects-eef95
 ---
 
 ## 🌍 Deployment
-- **Recommended:** [Vercel](https://vercel.com/) (free, seamless for Next.js)
-- Push your code to GitHub, import to Vercel, and deploy in minutes.
+- Deployed on Vercel [Vercel](https://vercel.com/)
+- How to Deploy: Push your code to GitHub, import to Vercel, and deploy in minutes.
 - See [Vercel Docs](https://vercel.com/docs) for details.
 
 ---
