@@ -18,26 +18,26 @@ export default function Home() {
   const router = useRouter();
   const [aboutModalOpen, setAboutModalOpen] = useState(false);
   const [name, setName] = useState("Divay Dua");
-  const [bio, setBio] = useState("I'm a software engineer with a love for building beautiful, functional, and impactful digital experiences. My journey spans web development, UI/UX design, and creative coding. I thrive on solving problems and bringing ideas to life.");
+  const [bio, setBio] = useState("Java Backend Developer with 3.5 years of experience building scalable, event-driven microservices using Java, Spring Boot, Kafka, and Docker. Proven track record in backend design, API development, and production support.\nComfortable taking end-to-end ownership of features and collaborating with cross-functional teams in agile environments.");
   const [avatarUrl, setAvatarUrl] = useState("/profile-placeholder.png");
 
   // Projects state
   const [projects, setProjects] = useState([
     {
       id: 1,
-      name: "Project 1",
-      description: "Description for Project 1",
-      url: "https://example.com/project1",
-      imageUrl: "/project-placeholder.png",
-      techStack: "React, Node.js, MongoDB",
+      name: "SocialConnect Spring Boot Microservices Project",
+      description: `• Designed and implemented modular, event-driven backend services for a LinkedIn-style ERP platform using Java, Spring Boot, and Kafka.\n• Developed scalable microservices with Redis caching, integrated API Gateway, and built observability features to ensure performance and traceability across distributed components.`,
+      url: "",
+      imageUrl: "",
+      techStack: "Java, Spring Boot, Kafka, Redis, API Gateway",
     },
     {
       id: 2,
-      name: "Project 2",
-      description: "Description for Project 2",
-      url: "https://example.com/project2",
-      imageUrl: "/project-placeholder.png",
-      techStack: "Next.js, Tailwind CSS",
+      name: "GPT for Access to Justice",
+      description: `• Developed smart legal forms with Docassemble and OpenAI\n• Enabled NLP-based voice input, Google Maps integration, and ML-driven intent detection`,
+      url: "",
+      imageUrl: "",
+      techStack: "Python, Docassemble, OpenAI, Google Maps, Machine Learning",
     },
   ]);
 
@@ -45,33 +45,65 @@ export default function Home() {
   const [experiences, setExperiences] = useState([
     {
       id: 1,
-      title: "Software Engineer",
-      company: "Acme Corp",
-      location: "Remote",
-      startDate: "2022-01-01",
-      endDate: "2023-01-01",
-      description: "Worked on building scalable web applications and leading a small team of developers.",
+      title: "Client Service Analyst",
+      company: "Bravura Solutions",
+      location: "Gurugram, India",
+      startDate: "2020-08-01",
+      endDate: "2024-01-01",
+      description: `• Designed and maintained core backend services using Java, Spring Boot, and JPA, focusing on scalable architecture and high reliability.\n• Developed RESTful APIs and contributed to microservice integrations, ensuring seamless communication across systems.\n• Took ownership of features from requirements gathering to deployment, actively participating in code reviews and system optimization.\n• Supported production systems, resolved high-priority incidents under tight SLAs, and reduced recurring issues by 50%.\n• Collaborated with product owners, QA, and DevOps teams across geographies to align on deliverables and ensure operational stability.`,
     },
   ]);
 
   // Skills state
   const [skills, setSkills] = useState([
-    { id: 1, name: "JavaScript", level: "Expert" },
-    { id: 2, name: "React", level: "Advanced" },
-    { id: 3, name: "Node.js", level: "Advanced" },
-    { id: 4, name: "UI/UX Design", level: "Intermediate" },
+    { id: 1, name: "Java (8/11)", level: "Expert" },
+    { id: 2, name: "Python", level: "Advanced" },
+    { id: 3, name: "SQL", level: "Advanced" },
+    { id: 4, name: "Spring Boot", level: "Expert" },
+    { id: 5, name: "Spring Security", level: "Advanced" },
+    { id: 6, name: "Hibernate", level: "Advanced" },
+    { id: 7, name: "Docker", level: "Advanced" },
+    { id: 8, name: "Kubernetes (GKE)", level: "Intermediate" },
+    { id: 9, name: "Jenkins", level: "Intermediate" },
+    { id: 10, name: "Git", level: "Advanced" },
+    { id: 11, name: "AppDynamics", level: "Intermediate" },
+    { id: 12, name: "RESTful API Services", level: "Expert" },
+    { id: 13, name: "Kafka", level: "Advanced" },
+    { id: 14, name: "Eureka", level: "Intermediate" },
+    { id: 15, name: "Spring Cloud Config", level: "Intermediate" },
+    { id: 16, name: "API Gateway", level: "Intermediate" },
+    { id: 17, name: "PostgreSQL", level: "Advanced" },
+    { id: 18, name: "MySQL", level: "Advanced" },
+    { id: 19, name: "Redis", level: "Intermediate" },
+    { id: 20, name: "AWS (EC2, S3)", level: "Intermediate" },
+    { id: 21, name: "GCP", level: "Intermediate" },
+    { id: 22, name: "JIRA", level: "Intermediate" },
+    { id: 23, name: "SOAP UI", level: "Intermediate" },
+    { id: 24, name: "IntelliJ", level: "Intermediate" },
+    { id: 25, name: "Agile Delivery", level: "Advanced" },
+    { id: 26, name: "Clean Code", level: "Advanced" },
+    { id: 27, name: "Testing & Documentation", level: "Advanced" },
   ]);
 
   // Education state
   const [educations, setEducations] = useState([
     {
       id: 1,
-      school: "XYZ University",
-      degree: "B.Tech in Computer Science",
-      field: "Software Engineering",
-      startDate: "2018-08-01",
-      endDate: "2022-06-01",
-      description: "Graduated with honors, specialized in software engineering and web development.",
+      school: "Swansea University",
+      degree: "M.Sc. in Advanced Computer Science",
+      field: "Advanced Computer Science",
+      startDate: "2024-01-01",
+      endDate: "2025-03-01",
+      description: "City: Swansea | Country: United Kingdom",
+    },
+    {
+      id: 2,
+      school: "Jaypee Institute of Information Technology",
+      degree: "B.Tech in Computer Science Engineering",
+      field: "Computer Science Engineering",
+      startDate: "2016-04-01",
+      endDate: "2020-05-01",
+      description: "Country: India",
     },
   ]);
 
@@ -89,8 +121,8 @@ export default function Home() {
 
   // Languages state
   const [languages, setLanguages] = useState([
-    { id: 1, name: "English", proficiency: "Fluent" },
-    { id: 2, name: "Hindi", proficiency: "Native" },
+    { id: 1, name: "English", proficiency: "Fluent (C1)" },
+    { id: 2, name: "German", proficiency: "Intermediate (A2)" },
   ]);
 
   // All add/edit/delete handlers for each section should update the above state directly.
@@ -157,6 +189,16 @@ export default function Home() {
     name: "",
     proficiency: "",
   });
+
+  // 1. Add state for soft skills
+  const [softSkills, setSoftSkills] = useState([
+    { id: 1, name: "Communication" },
+    { id: 2, name: "Leadership" },
+    { id: 3, name: "Problem Solving" },
+  ]);
+  const [softSkillsModalOpen, setSoftSkillsModalOpen] = useState(false);
+  const [editingSoftSkill, setEditingSoftSkill] = useState<typeof softSkills[0] | null>(null);
+  const [softSkillForm, setSoftSkillForm] = useState({ name: "" });
 
   // --- Projects Handlers ---
   const openAddProject = () => {
@@ -352,6 +394,34 @@ export default function Home() {
     setLanguages((prev) => prev.filter((l) => l.id !== id));
   };
 
+  // Soft Skills Handlers
+  const openAddSoftSkill = () => {
+    setEditingSoftSkill(null);
+    setSoftSkillForm({ name: "" });
+    setSoftSkillsModalOpen(true);
+  };
+  const openEditSoftSkill = (skill: typeof softSkills[0]) => {
+    setEditingSoftSkill(skill);
+    setSoftSkillForm({ name: skill.name });
+    setSoftSkillsModalOpen(true);
+  };
+  const handleSoftSkillFormChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, value } = e.target;
+    setSoftSkillForm((prev) => ({ ...prev, [name]: value }));
+  };
+  const handleSoftSkillSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (editingSoftSkill) {
+      setSoftSkills((prev) => prev.map((s) => (s.id === editingSoftSkill.id ? { ...s, ...softSkillForm } : s)));
+    } else {
+      setSoftSkills((prev) => [...prev, { id: Date.now(), ...softSkillForm }]);
+    }
+    setSoftSkillsModalOpen(false);
+  };
+  const handleDeleteSoftSkill = (id: number) => {
+    setSoftSkills((prev) => prev.filter((s) => s.id !== id));
+  };
+
   // Projects localStorage
   useEffect(() => {
     const saved = localStorage.getItem('projects');
@@ -400,6 +470,14 @@ export default function Home() {
   useEffect(() => {
     localStorage.setItem('languages', JSON.stringify(languages));
   }, [languages]);
+  // Soft Skills localStorage
+  useEffect(() => {
+    const saved = localStorage.getItem('softSkills');
+    if (saved) setSoftSkills(JSON.parse(saved));
+  }, []);
+  useEffect(() => {
+    localStorage.setItem('softSkills', JSON.stringify(softSkills));
+  }, [softSkills]);
 
   // About Me localStorage
   useEffect(() => {
@@ -474,6 +552,7 @@ export default function Home() {
         <div className="bg-slate-100 rounded-2xl shadow p-8 relative">
           <h3 className="text-2xl font-bold mb-4 text-blue-600">About Me</h3>
           <p className="text-lg leading-relaxed text-slate-700 whitespace-pre-line">{bio}</p>
+          <a href="/DivayDua-Resume.pdf" download target="_blank" rel="noopener noreferrer" className="inline-block mt-6 px-6 py-2 bg-blue-600 text-white rounded-full font-semibold shadow hover:bg-blue-700 transition">Download Resume</a>
           {isAuthenticated && (
             <button onClick={() => setAboutModalOpen(true)} className="absolute top-6 right-6 px-4 py-1 bg-blue-600 text-white rounded-full text-sm font-semibold hover:bg-blue-700 transition">Edit</button>
           )}
@@ -495,6 +574,58 @@ export default function Home() {
         </Modal>
       </section>
 
+      {/* 2. Add Tech Stack section after About section */}
+      <section id="tech-stack" className="max-w-4xl mx-auto py-12 px-4">
+        <div className="bg-slate-100 rounded-2xl shadow p-8 flex flex-col items-center">
+          <h3 className="text-2xl font-bold mb-6 text-blue-600 flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6l4 2" /></svg>
+            Tech Stack
+          </h3>
+          <div className="flex flex-wrap gap-6 justify-center items-center">
+            <div className="flex flex-col items-center">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" className="w-10 h-10" />
+              <span className="text-xs mt-1">Java (8/11)</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" className="w-10 h-10" />
+              <span className="text-xs mt-1">Python</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" className="w-10 h-10" />
+              <span className="text-xs mt-1">SQL</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" className="w-10 h-10" />
+              <span className="text-xs mt-1">Spring Boot</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Security" className="w-10 h-10" />
+              <span className="text-xs mt-1">Spring Security</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-plain.svg" alt="Hibernate" className="w-10 h-10" />
+              <span className="text-xs mt-1">Hibernate</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" className="w-10 h-10" />
+              <span className="text-xs mt-1">Docker</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" className="w-10 h-10" />
+              <span className="text-xs mt-1">Kubernetes</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="Kafka" className="w-10 h-10" />
+              <span className="text-xs mt-1">Kafka</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS" className="w-10 h-10" />
+              <span className="text-xs mt-1">AWS</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Projects Section */}
       <section id="projects" className="max-w-6xl mx-auto py-16 px-4">
         <div className="flex items-center mb-8">
@@ -509,6 +640,13 @@ export default function Home() {
               <h4 className="text-xl font-semibold mb-2 text-blue-700">{project.name}</h4>
               <p className="mb-4 text-slate-700">{project.description}</p>
               {project.url && <a href={project.url} className="text-teal-500 hover:underline font-medium" target="_blank" rel="noopener noreferrer">View Project →</a>}
+              {project.techStack && (
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {project.techStack.split(',').map((tech) => (
+                    <span key={tech.trim()} className="bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full text-xs font-medium">{tech.trim()}</span>
+                  ))}
+                </div>
+              )}
               {isAuthenticated && (
                 <div className="absolute top-4 right-4 flex gap-2">
                   <button onClick={() => openEditProject(project)} className="px-3 py-1 bg-blue-100 text-blue-700 rounded hover:bg-blue-200 text-xs">Edit</button>
@@ -749,6 +887,35 @@ export default function Home() {
                 <option value="Advanced">Advanced</option>
                 <option value="Native">Native</option>
               </select>
+            </label>
+            <button type="submit" className="bg-blue-600 text-white rounded px-4 py-2 font-semibold hover:bg-blue-700 transition">Save</button>
+          </form>
+        </Modal>
+      </section>
+
+      {/* 4. Add Soft Skills section after Skills section */}
+      <section id="soft-skills" className="max-w-4xl mx-auto py-16 px-4">
+        <div className="bg-slate-100 rounded-2xl shadow p-8 relative">
+          <h3 className="text-2xl font-bold mb-4 text-blue-600 flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6l4 2" /></svg>
+            Soft Skills {isAuthenticated && <button onClick={openAddSoftSkill} className="ml-4 px-4 py-1 bg-blue-600 text-white rounded-full text-sm font-semibold hover:bg-blue-700 transition">Edit</button>}
+          </h3>
+          <ul className="flex flex-wrap gap-4">
+            {softSkills.map(skill => (
+              <li key={skill.id} className="bg-white/60 backdrop-blur border border-slate-100 shadow-md rounded-full px-6 py-2 hover:shadow-xl hover:scale-[1.02] transition text-blue-700 font-medium">
+                {skill.name}
+                {isAuthenticated && (
+                  <button onClick={() => openEditSoftSkill(skill)} className="ml-2 px-2 py-0.5 bg-blue-100 text-blue-700 rounded text-xs hover:bg-blue-200">Edit</button>
+                )}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <Modal isOpen={softSkillsModalOpen} onClose={() => setSoftSkillsModalOpen(false)}>
+          <h2 className="text-xl font-bold mb-4 text-blue-700">{editingSoftSkill ? "Edit Soft Skill" : "Add Soft Skill"}</h2>
+          <form className="flex flex-col gap-4" onSubmit={handleSoftSkillSubmit}>
+            <label className="font-medium">Name
+              <input name="name" type="text" value={softSkillForm.name} onChange={handleSoftSkillFormChange} className="mt-1 w-full border border-slate-200 rounded px-3 py-2" required />
             </label>
             <button type="submit" className="bg-blue-600 text-white rounded px-4 py-2 font-semibold hover:bg-blue-700 transition">Save</button>
           </form>
