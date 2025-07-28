@@ -65,11 +65,10 @@ Welcome to my personal portfolio website, built with **Next.js**, **React**, and
 
 ---
 
-## 🌍 Deployment
-- Deployed on Vercel [Vercel](https://vercel.com/)
-- How to Deploy: Push your code to GitHub, import to Vercel, and deploy in minutes.
-- See [Vercel Docs](https://vercel.com/docs) for details.
-
+🌍 Deployment
+	•	Deployed on Vercel
+	•	Continuous deployment from GitHub main branch
+	•	To deploy: Push changes to GitHub → Vercel auto-deploys
 ---
 
 ## ⚠️ Notes
@@ -85,5 +84,5 @@ Welcome to my personal portfolio website, built with **Next.js**, **React**, and
 ---
 
 ## 🙏 Credits
-- Built by Divay Dua with Next.js, React, and Tailwind CSS.
-- Inspired by modern portfolio and glassmorphism UI trends.
+Created with ❤️ by Divay Dua
+Next.js • React • Tailwind CSS
