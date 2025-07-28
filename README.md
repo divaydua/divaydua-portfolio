@@ -1,49 +1,56 @@
-# 🚀 Divay Dua's Portfolio
+# 🚀 Divay Dua's Developer Portfolio
 
-A modern, fully-editable portfolio website built with Next.js, React, and Tailwind CSS. Showcase your resume, projects, experience, skills, education, trainings, and languages in a beautiful, recruiter-friendly UI. All data is editable from the UI and persists in your browser using localStorage.
+Welcome to my personal portfolio website, built with **Next.js**, **React**, and **Tailwind CSS**. This site showcases my background, projects, experience, and skills, with a modern and responsive UI optimized for recruiters and collaborators.
 
-Live Portfolio Link: [www.divaydua-portfolio-3z8c-git-main-divays-projects-eef9561e.vercel.app](https://divaydua-portfolio-git-main-divays-projects-eef9561e.vercel.app)
+🌐 **Live Site**: [https://divaydua.vercel.app](https://divaydua.vercel.app)
 
 ---
 
 ## ✨ Features
-- **Modern, Responsive Design**: Glassmorphism-inspired cards, icons, and a clean blue-accented palette.
-- **Editable Sections**: Update About, Projects, Experience, Skills, Education, Trainings, and Languages directly from the UI.
-- **Admin Mode**: Simple password-protected login to enable editing.
-- **Persistence**: All data is saved in your browser's localStorage—no backend required.
-- **Contact & Social**: Customizable email, phone, and social links (GitHub, LinkedIn, XING) with icons.
-- **Mobile Friendly**: Looks great on all devices.
+
+- **Modern UI** with a clean, glassmorphism-inspired design
+- **Fully Responsive** across devices
+- **Editable Sections**: Update About, Projects, Experience, Skills, Education, and Languages via Admin Mode
+- **Admin Mode**: Secure login unlocks edit capability (saved to localStorage)
+- **No Backend Required**: Lightweight and fast
+- **Social Integration**: GitHub, LinkedIn, XING, and more
+- **Optimized for Recruiters**: Easy access to resume, projects, and contact info
 
 ---
 
 ## 🛠️ Tech Stack
-- **Framework**: [Next.js 15 (App Router)](https://nextjs.org/)
+
+- **Framework**: [Next.js 15+ (App Router)](https://nextjs.org/)
 - **Frontend**: [React 18+](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/)
-- **State & Persistence**: React state + localStorage
-- **Icons**: Inline SVGs for all section headers, actions, and social links
-- **Authentication**: Simple password-based admin mode (no backend)
+- **State/Persistence**: React state + localStorage
+- **Icons**: Inline SVGs and icon libraries
+- **Authentication**: Password-based client-side admin control
 
 ---
 
 ## 📄 Portfolio Sections
+
 - **About Me**: Name, bio, and profile image
-- **Projects**: Title, description, link, image, tech stack
-- **Experience**: Title, company, location, dates, description
-- **Skills**: Name and proficiency
-- **Education**: School, degree, field, dates, description
-- **Trainings & Certificates**: Name, issuer, dates, credential URL
-- **Languages**: Name and proficiency
-- **Contact**: Email, phone, GitHub, LinkedIn, XING
+- **Projects**: Title, description, links, image, and tech stack
+- **Experience**: Role, company, timeline, and responsibilities
+- **Skills**: Tech skills and proficiency
+- **Education**: Degrees, institutions, and timelines
+- **Trainings & Certificates**: Credential info and issuer
+- **Languages**: Spoken/written proficiency
+- **Contact**: Email, phone, GitHub, LinkedIn, XING, etc.
 
 ---
 
-## 🔒 Editing & Admin Mode
-- Click **Login** (top right) and enter the password to enable editing.
-- All sections become editable with add/edit/delete buttons and modals.
-- Data is saved to your browser's localStorage and persists across refreshes and restarts.
+## 🔒 Admin Editing
+
+1. Click “**Login**” (top right)
+2. Enter the admin password
+3. Add/Edit/Delete entries using modals
+4. Changes persist locally via `localStorage`
+
+> ⚠️ Data is stored locally; changes will not sync across browsers or devices unless deployed with backend.
 
 ---
-
 ## 🚀 Getting Started
 
 1. **Install dependencies:**
