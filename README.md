@@ -84,5 +84,6 @@ Welcome to my personal portfolio website, built with **Next.js**, **React**, and
 ---
 
 ## 🙏 Credits
-Created with ❤️ by Divay Dua
-Next.js • React • Tailwind CSS
+- Created with ❤️ by Divay Dua
+
+- Next.js • React • Tailwind CSS
