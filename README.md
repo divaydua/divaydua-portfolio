@@ -66,9 +66,9 @@ Welcome to my personal portfolio website, built with **Next.js**, **React**, and
 ---
 
 🌍 Deployment
-	•	Deployed on Vercel
-	•	Continuous deployment from GitHub main branch
-	•	To deploy: Push changes to GitHub → Vercel auto-deploys
+- Deployed on Vercel
+- Continuous deployment from GitHub main branch
+- To deploy: Push changes to GitHub → Vercel auto-deploys
 ---
 
 ## ⚠️ Notes
